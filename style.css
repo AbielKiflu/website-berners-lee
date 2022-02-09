@@ -38,6 +38,18 @@ text-align: center;
     background-color: white;
 }
 
+#share ul, li{ 
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+}
+
+#share a{
+    text-decoration: none;
+    color: gray;
+}
+
+
 
 #share{
     margin-top: 20px;
@@ -45,6 +57,8 @@ text-align: center;
     border: 2px solid lightgray;
     border-radius:4px;
     background-color: white;
+    text-align: center;
+    padding: 30px;
 }
 
 
@@ -59,4 +73,24 @@ text-align: center;
 #movies h4{
     text-align: center;
 }
+
+
+
+#movies > article img{
+    float: left;
+    padding: 5px;
+    width:130px;
+}
+
+#movies > article h5{
+  text-align: center;
+}
+
+ 
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
  
