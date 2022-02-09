@@ -1,0 +1,62 @@
+body{
+    max-width: 70%;
+    margin: auto;
+    background-color:lightgray;
+}
+
+#profile img{
+    border-radius: 50%;
+    margin:auto;
+    display: block;
+}
+
+#profile > * {
+text-align: center;
+
+
+}
+
+#profile h2,#profile h4{
+    color: brown;
+}
+
+#profile a{
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: brown;
+
+}
+
+#profile{
+    margin-top: 20px;
+    padding:8px;
+    border: 2px solid lightgray;
+    border-radius:4px;
+    background-color: white;
+}
+
+
+#share{
+    margin-top: 20px;
+    padding:8px;
+    border: 2px solid lightgray;
+    border-radius:4px;
+    background-color: white;
+}
+
+
+#movies{
+    margin-top: 20px;
+    padding:8px;
+    border: 2px solid lightgray;
+    border-radius:4px;
+    background-color: white;
+}
+
+#movies h4{
+    text-align: center;
+}
+ 
