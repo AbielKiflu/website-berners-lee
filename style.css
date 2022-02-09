@@ -10,29 +10,36 @@ body{
 
 #profile img{
     border-radius: 50%;
-    border: 1px solid black;
+    border: 3px solid lightgray;
     width: 110px;
     margin:auto;
     display: block;
 }
 
-#profile > * {
+#profile h4 {
 text-align: center;
 
 
 }
 
-#profile h2,#profile h4{
-    color: brown;
+#profile h2{
+    color: #D75252;
+    text-align: center;
 }
 
+
+
 #profile a{
-    padding: 10px;
+    display:block;
     text-decoration: none;
-    width: 100px;
+    width: 130px;
     border-radius: 4px;
     color: white;
-    background-color: brown;
+    height: 25px;
+    padding: 10px;
+    font-weight: bold;
+    margin:auto;
+    background-color:#D75252;
 
 }
 
