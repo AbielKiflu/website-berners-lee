@@ -2,11 +2,18 @@
 body{
         max-width: 500px;
         margin: auto;
-        background-color:lightgray;
+        background-color:#D5D5D5;
         font-family: 'Open Sans', sans-serif;
     }
 
-
+#profile{
+    margin-top:20px;
+        padding:17px;
+        border: 2px solid lightgray;
+        border-radius:4px;
+        color: gray;
+        background-color: white;
+    }
 
 #profile img{
     border-radius: 50%;
@@ -14,6 +21,10 @@ body{
     width: 110px;
     margin:auto;
     display: block;
+}
+
+#profile p{
+    font-size: 15px;
 }
 
 #profile h4 {
@@ -25,6 +36,7 @@ text-align: center;
 #profile h2{
     color: #D75252;
     text-align: center;
+    
 }
 
 
@@ -35,63 +47,52 @@ text-align: center;
     width: 130px;
     border-radius: 4px;
     color: white;
-    height: 25px;
-    padding: 10px;
+    padding: 8px;
     font-weight: bold;
+    font-size: 16px;
     margin:auto;
     background-color:#D75252;
 
 }
 
-#profile{
-    margin:20px 20px;
-    padding:8px;
+
+#share{
+    margin-top:20px;
     border: 2px solid lightgray;
     border-radius:4px;
     background-color: white;
+    text-align: center;
+    padding: 35px;
 }
+
+
 
 #share ul{ 
     justify-items: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 16px;
+
 }
 
 #share li{
     display: flex;
     flex-direction: column;
+    color: rgb(206, 199, 199);
 }
 
 #share a{
     text-decoration: none;
-    color:gray;
-    
+    color: rgb(206, 199, 199);
 }
- 
-
-
-#share{
-    margin:20px 20px;
-    padding:8px;
-    border: 2px solid lightgray;
-    border-radius:4px;
-    background-color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-
-#share ul {
-  color: gray;
-}
-
+   
 
 
 #movies{
-    margin:20px 20px;
-    padding:8px;
+    color: gray;
+    margin:20px 0 20px 0;
+    padding:5px;
     border: 2px solid lightgray;
     border-radius:4px;
     background-color: white;
@@ -101,18 +102,25 @@ text-align: center;
     text-align: center;
 }
 
+#movies h4 span{
+    background-color: #D5D5D5;
+}
 
 
 #movies > article img{
     float: left;
-    padding: 5px;
-    width:100px;
+    padding: 15px;
+    width:75px;
 }
 
 #movies > article h5{
   text-align: center;
 }
 
+#movies > article p{
+    text-align: left;
+   
+  }
  
 
 .clearfix::after {
