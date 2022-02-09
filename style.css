@@ -6,8 +6,12 @@ body{
         font-family: 'Open Sans', sans-serif;
     }
 
+
+
 #profile img{
     border-radius: 50%;
+    border: 1px solid black;
+    width: 110px;
     margin:auto;
     display: block;
 }
@@ -33,7 +37,7 @@ text-align: center;
 }
 
 #profile{
-    margin-top: 20px;
+    margin:20px 20px;
     padding:8px;
     border: 2px solid lightgray;
     border-radius:4px;
@@ -62,7 +66,7 @@ text-align: center;
 
 
 #share{
-    margin-top: 20px;
+    margin:20px 20px;
     padding:8px;
     border: 2px solid lightgray;
     border-radius:4px;
@@ -79,7 +83,7 @@ text-align: center;
 
 
 #movies{
-    margin-top: 20px;
+    margin:20px 20px;
     padding:8px;
     border: 2px solid lightgray;
     border-radius:4px;
@@ -95,7 +99,7 @@ text-align: center;
 #movies > article img{
     float: left;
     padding: 5px;
-    width:130px;
+    width:100px;
 }
 
 #movies > article h5{
