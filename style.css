@@ -1,6 +1,5 @@
  
-
-    body{
+body{
         max-width: 65%;
         margin: auto;
         background-color:lightgray;
@@ -41,14 +40,18 @@ text-align: center;
     background-color: white;
 }
 
-#share ul, li{ 
-    list-style-type: none;
-    display: inline;
-    margin: 5px;
-    font-size: 25px;
+#share ul{ 
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
 }
 
-
+#share li{
+    display: flex;
+    flex-direction: column;
+}
 
 #share a{
     text-decoration: none;
